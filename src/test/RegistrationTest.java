@@ -60,7 +60,7 @@ String ActualAccountName;
 
    
 public void FillData() throws IOException {
-    String filePath = System.getProperty("user.dir")+"\\src\\Excel\\TestData.xlsx";
+    String filePath = System.getProperty("user.dir")+"\\src\\TestData.xlsx";
 
     
 	FileInputStream fs = new FileInputStream(filePath);
@@ -88,7 +88,7 @@ public void FillData() throws IOException {
 	
 }
     @Test(priority=0)
-    public void Register_New_User() 
+    public void Register_New_User() throws Exception 
     {
         
     	
